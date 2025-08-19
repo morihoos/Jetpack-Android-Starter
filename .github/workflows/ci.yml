@@ -1,6 +1,7 @@
 name: 🚀 Build & Validate
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [ libs-versions-updated ]
   pull_request:
